@@ -69,7 +69,7 @@ export function Chat({
           </Card>
         </div>
         <form onSubmit={handleSubmit}>
-          <Input className="ring-0" placeholder="Ask Claude..." value={input} onChange={handleInputChange}/>
+          <Input className="ring-0" placeholder="Ask Arty..." value={input} onChange={handleInputChange}/>
         </form>
       </div>
     </div>
